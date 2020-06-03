@@ -1,396 +1,276 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Myeongkyu Lee</title>
+	<meta charset="UTF-8" />
+	<title>Myeongkyu's WebSite</title>
 
-    <link rel="icon" href="assets/images/favicon.png">
-
-    <link rel="stylesheet"
-          href="https://fonts.googleapis.com/css?family=Roboto:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
-    <link rel="stylesheet" href="assets/styles/font-awesome.min.css"/>
-    <link rel="stylesheet" href="assets/styles/font-mfizz.css"/>
-    <link rel="stylesheet" href="assets/styles/index.css"/>
-
-    <script src="assets/scripts/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="https://rawgit.com/byliuyang/github-stats/master/src/github-stats.js"></script>
-    <script type="text/javascript" src="assets/scripts/index.js"></script>
-
-    <meta name="description"
-          content="I am a software engineer working at Udacity.">
-    <meta name="keywords" content="Web, ES6, iOS, Computer Vision, Machine Learning, UI, Algorithm, Developer">
-    <meta name="author" content="Yang Liu">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="description" content="My very own personal website.">
+	<meta name="subject" content="This is just a résumé.">
+	<meta property="og:description" content="I do not compete with others, the only competition that challenges me is myself. As a fighter, friend and an employee I am known as contemplative, tortured and driven.">
+	<meta property="og:locale" content="en_US">
+	<meta property="og:title" content="Dmitriy Uvin &mdash; Résumé">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://dmitriy-sanders.github.io/homepage/">
+	<link rel="stylesheet" href="assets/styles/extended.css">
+	<link rel="stylesheet" href="https://volodymyrkushnir.com/assets/stylesheets/base.css">
+	<link rel="icon" href="assets/images/ava.png" type="image/png" sizes="16x16">
 </head>
 <body>
-<header id="header">
-    <div class="center">
-        <div id="logo">Yang Liu</div>
-        <nav>
-            <ul>
-                <li data-pane-id="experiences-pane">
-                    <div>
-                        <i class="material-icons">work</i>
-                    </div>
-                    <div>
-                        Experiences
-                    </div>
-                </li>
-                <li data-pane-id="projects-pane">
-                    <div>
-                        <i class="material-icons">build</i>
-                    </div>
-                    <div>
-                        Projects
-                    </div>
-                </li>
-                <li data-pane-id="activities-pane">
-                    <div>
-                        <i class="material-icons">extension</i>
-                    </div>
-                    <div>
-                        Activities
-                    </div>
-                </li>
-                <li data-pane-id="certificate-pane">
-                    <div>
-                        <i class="material-icons">grade</i>
-                    </div>
-                    <div>
-                        Certificates
-                    </div>
-                </li>
-                <li data-pane-id="education-pane">
-                    <div>
-                        <i class="material-icons">school</i>
-                    </div>
-                    <div>
-                        Education
-                    </div>
-                </li>
-                <li data-pane-id="favorite-books-pane">
-                    <div>
-                        <i class="material-icons">bookmark</i>
-                    </div>
-                    <div>
-                        Favorite books
-                    </div>
-                </li>
-            </ul>
-        </nav>
-        <i class="material-icons menu" id="menu-btn">menu</i>
-    </div>
-</header>
-<ul id="main-content">
-    <li id="biography-pane">
-        <div class="center">
-            <div id="biography-profile-container">
-                <img id="biography-profile" src="assets/images/profile.jpg"/>
-            </div>
-            <div id="biography-intro-container">
-                <div id="biography-who-i-am">I'm <span class="role">a Full-stack Engineer.</span></div>
-                <div id="biography-skills-container">
-                    <div>
-                        I eat
-                        <i class="icon-git"></i>
-                        <a href="https://git-scm.com">Git</a>,
-                        <i class="icon-docker"></i><a href="https://www.docker.com">Docker</a>
-                        and
-                        <i class="icon-nginx"></i>
-                        <a href="https://nginx.org">Nginx</a>.
-                    </div>
-                    <div>
-                        I drink
-                        <i class="icon-reactjs"></i>
-                        <a href="https://facebook.github.io/react">React</a>,
-                        <i class="icon-angular"></i>
-                        <a href="https://angular.io">Angular</a>
-                        and
-                        <a href="https://webpack.js.org">Webpack</a>.
-                    </div>
-                    <div>
-                        I breathe
-                        <a href="https://www.typescriptlang.org">TypeScript</a>,
-                        <i class="icon-go"></i>
-                        <a href="https://golang.org">Golang</a>
-                        and
-                        <i class="icon-java"></i>
-                        <a href="https://www.java.com">Java</a>.
-                    </div>
-                    <div>
-                        I love
-                        <i class="icon-spring"></i>
-                        <a href="https://spring.io">Spring</a>,
-                        <i class="icon-ruby-on-rails"></i>
-                        <a href="http://rubyonrails.org">Rails</a>
-                        and
-                        <a href="https://expressjs.com">Express</a>.
-                    </div>
-                </div>
-                <ul class="social-media">
-                    <li>
-                        <a href="https://github.com/byliuyang" target="_blank" title="Github">
-                            <i class="fa fa-github-square" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.linkedin.com/in/yang-liu-416b8669" target="_blank" title="LinkedIn">
-                            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://devpost.com/byliuyang11" target="_blank" title="Devpost">
-                            <img src="assets/images/platforms/devpost.svg" class="devpost-icon">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </li>
-    <li id="contributions-pane" class="center">
-        <h1>Contributions</h1>
-        <ul>
-            <li class="platform-info">
-                <div class="platform-logo">
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg">
-                </div>
-                <div>
-                    <div id="github-contributions"></div>
-                </div>
-            </li>
-        </ul>
-    </li>
-</ul>
+	<main>
+		<div id="wave">
+			<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" viewBox="414 334 1440 118">
+        <path fill="currentColor" d="M1168.4,421.2c266.9,49.9,515.4,28.9,685.6,8.8v-96H414v96C601.3,407.8,844,360.6,1168.4,421.2z"></path>
+      </svg>
+		</div>
+		<article>
+			<div class="page" style="border-color: #e54324;">
+				<div class="stackable grid">
+					<div class="row">
+						<div class="three wide center aligned column">
+							<div class="avatar-wrapper">
+								<img id="face" class='avatar' src="assets/images/ava.png" alt='Avatar'/>
+							</div>
+							
+						</div>
+						<div class="thirteen wide column">
+							<div class="stackable grid">
+								<div class="sixteen wide column">
+									<h1>Dmitriy Uvin</h1>
+									<div class="job">
+										<p>Student • Backend Developer • Sportsmen</p>
+									</div>
+									
+									<ul class="contacts">
+										<li>
+											<a href="https://t.me/dmitriyuvin" target="_blank">
+												<img class='custom-img' src="https://img.icons8.com/material-sharp/16/000000/telegram-app.png" alt='Telegram'/>
+												dmitriyuvin
+											</a>
+										</li>
+										<li>
+											<a href="https://instagram.com/dmitriyuvin_com" target="_blank">
+												<img class='custom-img' src="https://img.icons8.com/metro/16/000000/instagram-new.png" alt='Instagram'/>
+												dmitriyuvin_com
+											</a>
+										</li>
+										<li>
+											<a href="mailto:dimauuvin@gmail.com">
+												<img class='custom-img' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABmJLR0QA/wD/AP+gvaeTAAAA5klEQVQ4jcXSvUpDQRCG4SfiHzZiI0TsgoiXINgL9ra2go2oN5CLsEq8ggPeQ7o0AZsUVtpoIVgoiHYei8wxSzBLThoHhmWH73t3mB3+Oxpx7mO7pvcJ/erSRVkzuyltEef4mMH4hTaWU8AZWthBL2PuhaYVnt8o8BnkVZzgNTG+RYcrSafFJKASD3GAJm4jm1EbJrqpgBLf6GDD+KdgwXjgWUCVL7hONBcJpGA0/VxsRsIhjrGOUxzN0kGJB2wZLdt71NqTL+UAJe7/gFxSb5UfMQjtDa6w18hapscS7vA8px/sYu0HHhdiPor3gtsAAAAASUVORK5CYII=" 
+												alt='Gmail'/>
+												dimauuvin@gmail.com
+											</a>
+										</li>
+									</ul>
+								</div>
 
-<div id="pane-wrapper">
-</div>
+								<div class="sixteen wide mobile only column">
+									<div class="divider"></div>
+								</div>
 
-<ul id="hidden-panes">
-    <li id="experiences-pane" class="center active-pane">
-        <h1>Experiences</h1>
-        <ul>
-            <li class="company-info">
-                <div class="company-logo">
-                    <img src="assets/images/companies/udacity.png">
-                </div>
-                <div>
-                    <div>
-                        <span class="important">Full-stack Developer, Udacity</span>,
-                        Mountain View, CA, US
-                    </div>
-                    <div class="date">JUNE 2018 – PRESENT</div>
+								<div class="sixteen wide column">
+									<h2>Résumé</h2>
+									<p>― I do not compete with others, the only competition that challenges me is myself. Trying to become better with each day. I do sports, read books, upgrading mindset, and want to make my dreams come true!
+									</p>
+									<p class="quote">
+										<i>“Be yourself; everyone else is already taken.” – Oscar Wilde</i>
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
 
-                    <ul class="description">
-                        <li>Removed <span class="important">circular dependencies</span> in <span>Angular</span> app to
-                            reduce page refresh time by 90%, significantly improved 8 engineers’ productivity.
-                        </li>
-                        <li>Decoupled UI based on <span class="important">SOLID Agile</span> principles, introduced
-                            <span>unit tests</span> to 4 components, and added <span>error handling</span>,
-                            incrementally refactoring app following <span class="important">Clean Code</span>.
-                        </li>
-                        <li>Designed <span>algorithms & data structures</span> to generate survey questions based on
-                            students’ answers and used <span>stack</span> to navigate through section history.
-                        </li>
-                        <li><span class="important">Dockerized</span> app and configured <span class="important">Circle CI</span>,
-                            reducing CI run time by 11%.
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="company-info">
-                <div class="company-logo">
-                    <img src="assets/images/companies/wpi.png">
-                </div>
-                <div>
-                    <div>
-                        <span class="important">Full-stack Web Developer, Intern, Worcester Polytechnic Institute</span>,
-                        Worcester, MA, US
-                    </div>
-                    <div class="date">MARCH 2017 – MARCH 2018</div>
-                    <ul class="projects">
-                        <li class="project first">
-                            <a href="https://www.wpi.edu/library" target="_blank">
-                                <div class="project-thumbnail">
-                                    <img src="assets/images/screenshots/wpi-library/1.png">
-                                </div>
-                            </a>
-                            <div class="project-title">
-                                <a href="https://www.wpi.edu/library" target="_blank">Library Search</a>
-                            </div>
-                            <div class="project-description">Search component for school library</div>
-                            <ul class="project-implementation">
-                                <li>Developed <span class="important">mobile user experience first</span> search
-                                    component in <span class="important">ES6</span> to assist students in finding the
-                                    campus library resources effectively.
-                                </li>
-                                <li>Prevented <span class="important">Cross-site scripting</span> by blacklisting inputs
-                                    with <span class="important">regular expression</span> in <span class="important">PHP</span>.
-                                </li>
-                                <li>Tracked issues with <span class="important">Gitlab</span> and deployed code to <span
-                                        class="important">Amazon S3</span>.
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="company-info">
-                <div class="company-logo">
-                    <img src="assets/images/companies/wpi.png">
-                </div>
-                <div>
-                    <div><span class="important">Student Assistant, Worcester Polytechnic Institute</span>, Worcester,
-                        MA, US
-                    </div>
-                    <div class="date">SEPTEMBER 2017 - NOVEMBER 2017</div>
-                    <div class="description">
-                        Explained <a>selection sort</a>, <a>merge sort</a>, <a>abstract classes</a> and
-                        <a>inheritance</a> to non-computer science students.
-                    </div>
-                </div>
-            </li>
-            <li class="company-info">
-                <div class="company-logo">
-                    <img src="assets/images/companies/assistments.png">
-                </div>
-                <div>
-                    <div><span class="important">Full-stack Mobile Developer, Intern, ASSISTments</span>,
-                        Worcester, MA, US
-                    </div>
-                    <div class="date">SEPTEMBER 2016 – FEBRUARY 2017</div>
-                    <ul class="description">
-                        <li>Architected <a>iOS</a> app with <a>MVVM</a>, <a>RxSwift</a>, <a>dependency injection</a>,
-                            and <a>services</a>.
-                        </li>
-                        <li>Mocked <a>RESTful APIs</a> in <a>RAML</a>, built a <a>testing framework</a> for <a>Java
-                            Spring</a>,
-                            developed <a>mini SDK</a> and sped up data queries <a>15 times</a> through optimizing
-                            <a>SQL</a>.
-                        </li>
-                    </ul>
-                    <ul class="projects">
-                        <li class="project first">
-                            <a href="assets/documents/assistments.pdf" target="_blank">
-                                <div class="project-thumbnail-mobile">
-                                    <img src="assets/images/screenshots/assistments/1.png">
-                                </div>
-                            </a>
-                            <div class="project-title">
-                                <a href="assets/documents/assistments.pdf" target="_blank">ASSISTments iOS App</a>
-                            </div>
-                            <div class="project-description">iOS app for intelligent tutoring system
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="company-info">
-                <div class="company-logo">
-                    <img src="assets/images/companies/wpi.png">
-                </div>
-                <div>
-                    <div><span class="important">Summer Camp Teaching Assistant, Worcester Polytechnic Institute</span>,
-                        Worcester, MA, US
-                    </div>
-                    <div class="date">AUGUST 2017 – AUGUST 2017</div>
-                    <ul class="description">
-                        <li>Introduced high school students core <a>CSS</a> and <a>javascript</a> concepts, such as <a>flex
-                            box</a>, <a>scope</a>,
-                            <a>events handling</a>, <a>JSON</a> parsing, <a>AJAX</a>, <a>DOM manipulation</a> and
-                            <a>CORS</a>.
-                        </li>
-                        <li>
-                            Provided student tutorials on building their real-time chat apps with <a>Socket.io</a> and
-                            on sending email using <a>SentGrid</a> API.
-                        </li>
-                    </ul>
-                </div>
-            </li>
-            <li class="company-info">
-                <div class="company-logo">
-                    <img src="assets/images/companies/concordya.jpg">
-                </div>
-                <div>
-                    <div><span class="important">UI Designer, Intern, Concordya Inc.</span>, Beijing, China</div>
-                    <div class="date">MAY 2015 – AUGUST 2015</div>
-                    <ul class="description">
-                        <li>Designed homepage <a>animations</a>, <a>material UI</a>, <a>icons</a> and <a>logos</a> with
-                            <a>Sketch</a>.
-                        </li>
-                        <li>Created <a>interactive prototypes</a> with <a>Framer.js</a>, <a>jQuery</a> and <a>CSS3</a>.
-                        </li>
-                    </ul>
-                    <ul class="projects">
-                        <li class="project first">
-                            <a href="http://byliuyang.github.io/guanplushomepage" target="_blank">
-                                <div class="project-thumbnail">
-                                    <img src="assets/images/screenshots/guan-plus-homepage/1.png">
-                                </div>
-                            </a>
-                            <div class="project-title">
-                                <a href="http://byliuyang.github.io/guanplushomepage" target="_blank">Guan Plus</a>
-                            </div>
-                            <div class="project-description">Animated homepage for Concordya Inc.</div>
-                        </li>
-                    </ul>
-                </div>
-            </li>
-        </ul>
-    </li>
-    <li id="projects-pane" class="center active-pane">
-        <h1>Projects</h1>
-        <ul class="projects">
-            <li class="project first">
-                <a href="https://wastedrop.time4hacks.com" target="_blank">
-                    <div class="project-thumbnail">
-                        <img src="assets/images/screenshots/waste-drop/1.png">
-                    </div>
-                </a>
-                <div class="project-title">
-                    <a href="https://wastedrop.time4hacks.com" target="_blank">WasteDrop</a>
-                </div>
-                <div class="project-description">
-                    Recycle game for youth and kids
-                </div>
-                <div class="project-implementation">
-                    Drew scenes and characters using <a>Sketch</a>, built game interface in <a>HTML5</a>, <a>CSS3</a>,
-                    <a>ES6</a> and <a>jQuery</a>, and developed backend API with <a>Express.js.</a>
-                </div>
-            </li>
-            <li class="project second">
-                <a href="https://github.com/byliuyang/docker-deploy" target="_blank">
-                    <div class="project-thumbnail">
-                        <img src="assets/images/screenshots/docker-deploy/1.png">
-                    </div>
-                </a>
-                <div class="project-title">
-                    <a href="https://github.com/byliuyang/docker-deploy" target="_blank">Docker Deploy</a>
-                </div>
-                <div class="project-description">
-                    A Web-based Container Manager
-                </div>
-                <div class="project-implementation">
-                    Built <a>Docker</a> container manager and <a>Webhooks</a> in <a>Golang</a> & <a>bash</a>. Developed real-time animated web UI with <a>CSS3</a>.
-                </div>
-            </li>
-            <li class="project first">
-                <a href="https://github.com/byliuyang/github-stats" target="_blank">
-                    <div class="project-thumbnail">
-                        <img src="assets/images/screenshots/github-stats/1.png">
-                    </div>
-                </a>
-                <div class="project-title">
-                    <a href="https://github.com/byliuyang/github-stats" target="_blank">Github Stats</a>
-                </div>
-                <div class="project-description">
-                    Github contribution graph generator
-                </div>
-                <div class="project-implementation">
-                </div>
-            </li>
+					<div class="row">
+						<div class="sixteen wide column">
+							<div class="fat divider"></div>
+						</div>
+					</div>
 
- 
+					<div class="row">
+						<div class="ten wide column">
+							<section>
+								<h3>Timeline</h3>
+								<ul class="timeline">
+									<li>
+										<p><i>September 2019 - till now</i></p>
+										<strong>Studen in KPI, FICT</strong>
+										<ul>
+											<li class="details">
+												<p><i>I thought, that KPI is the most technological university in Ukraine. But when i started learning, i was upset a little.
+													not so technological, but it's good maybe, now i expect only fro my skills and character. Let's do it!</i></p>
+												<input type="checkbox" id="university">
+												<label for="university" class="summary">
+													<strong>Student</strong>
+												</label>
 
+												<div>
+													<ul>
+														<li>Making some friends</li>
+														<li>Realising that i need to do something to become good and needed for people man.</li>
+														<li>Discovering a lot of new things, mostly very interesting.</li>
+														<li>Started to learn PHP and his frameworks the more harder, to create a company, in the future.</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<p><i>Summer 2019</i></p>
+										<strong>Becoming a man</strong>
+										<ul>
+											<li class="details">
+												<input type="checkbox" id="summer">
+												<label for="summer" class="summary">
+													<strong>17-th years old man </strong>
+												</label>
+												<div>
+													<ul>
+														<li>Trying to be not lazy.</li>
+														<li>Searching for work, like, <u>loader</u>, waiter and so...</li>
+														<li>Working as loader, load -> unload, and so on for a month. (Very valuable expeirence)</li>
+														<li>Working like Frontend-Backend-Devops developer, i think that</li>
+														<li>Entering to KPI, the best tech... Ha-Ha... It will be later:D</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<p><i>September, 2016 - May 19</i></p>
+										<strong>My Lyceum</strong>
+										<ul>
+											<li class="details">
+												<input type="checkbox" id="lyceum">
+												<label for="lyceum" class="summary">
+													<strong>Student of </strong> at <strong>Lyceum ZGTU, Zhytomyr</strong>
+												</label>
+												<div>
+													<ul>
+														<li>Good study</li>
+														<li>First love... And second a little bit later.</li>
+														<li>First fight, first quarelling, teenage problems, you know...</li>
+														<li>Growing up mentally, physically</li>
+														<li>Different friends and a lot of familiar people.</li>
+														<li>At all good.</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<p><i>September, 2008 - May 2016</i></p>
+										<strong>My first School</strong>
+										<ul>
+											<li class="details">
+												<input type="checkbox" id="first-school">
+												<label for="first-school" class="summary">
+													<strong>Pupil</strong> at <strong>26 School, Zhytomyr</strong>
+												</label>
+												<div>
+													<ul>
+														<li>Good study for 4 years, then gettings worst.</li>
+														<li>A lot of friends</li>
+														<li>Sometimes a lot of fun, sometime a lot of sadness</li>
+														<li>Fun at all</li>
+													</ul>
+												</div>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<p>
+											<strong>The best childhood</strong>
+											<p>Of course, with sweet, toys, late evenings with friends... And a lot of fun and sometimes not so much fun:)</p>
+										</p>
+									</li>
+									<li>
+										<a href='assets/images/fun.jpg' class='quote' target="_blank">First years of my life.</a>
+									</li>
+									<li>
+										<p><em>4<sup>th</sup> January 2002</em></p>
+										<p>
+											<strong>Born</strong> in <strong><a href="https://www.google.com.ua/maps/@50.2817883,28.6104746,18.29z?hl=ru&authuser=0" rel="external" target="_blank">Zhytomyr, Ukraine</a></strong><sup><em></em></sup>
+										</p>
+									</li>
+								</ul>
+							</section>
+						</div>
+						<div class="six wide column">
+							<section>
+								<h3>Languages</h3>
+								<p class="tags small langs">
+									<span>🇺🇦 Ukrainian</span>
+									<span>🇷🇺 Russian</span>
+									<span>🇺🇸 ENGLISH</span>
+								</p>
+							</section>
+							<section>
+								<h3>Skills</h3>
+								<p class="custom-tags">
+									PHP\MYSQL, Laravel, Slim, JS, JQuery, HTML\CSS, SASS, Trello, JetBrains, Bootstrap, Microsoft Office, Photoshop, Sony Vegas, FL Studio, GIMP, PhotoScape, AdobeFlash, Composer, npm, Python (NumPy, MatplotLib, Pandas, Tkinter, NetworkX, Java), Wordpress, OkayCms.
+								</p>
+							</section>
+							<section>
+								<h3>Personality</h3>
+								<p class="tags small">
+									<ul class="custom-tags">
+										<li>RESTRAINED</li>
+										<li>PERSISTENT</li>
+										<li>CONFIDENT</li>
+										<li>DREAMER</li>
+										<li>OBSERVANT</li>
+										<li>INVENTIVE</li>
+										<li>SHARP-WITTED</li>
+										<li>CURIOUS</li>
+									</ul>
+								</p>
+							</section>
+
+							<section>
+								<h3>Like 😃</h3>
+								<p class="custom-tags">
+									LIFE, HUMOR, PATIENCE, SOMETIMES SILENCE, SOMETIMES NOISE, CARS, MOTORCYCLES, EQUIPMENT, ANY KITCHEN, SPICY, DOGS, MOTORSPORT, DRIFT, DRAG, RING, RALLY, SERIALS AND MOVIES ON REAL EVENTS.
+								</p>
+							</section>
+							<section>
+								<h3>Dislike 😞</h3>
+								<p class="custom-tags">
+									ALCOHOL, DEGRADING, OWN "COCKROACHS", "INTERESTING" THOUGHTS IN THE HEAD, PEOPLE BATTERING YOURSELF PRICE, TELEVISION, CONVERSATIONS WITH NO SENSE, ENVY, COMPARISON WITH OTHERS.
+							</section>
+
+							<section>
+								<h3>DESIRES 🥺</h3>
+								<p class="tags bulleted">
+									TO BE HEALTHY ● TO BE SIGNIFICANT ● TO BE A MAN ● WORK CORRECTLY ● DO NOT BE AFRAID TO LOOK FOOLISH ● BECOMING ONLY BETTER PERSON ● BE HAPPY
+							</section>
+
+							<section>
+								<h3>Education</h3>
+								<p><i>2018 - nowadays</i></p>
+								<strong>My baggage</strong>
+								<ul>
+									<li class="details">
+										<input type="checkbox" id="baggage">
+										<label for="baggage" class="summary">
+											Click
+										</label>
+										<div>
+											<ul>
+												<li>Udemy</li>
+												<li>YouTube, big amount of different playlists</li>
+												<li>Books</li>
+												<li>DIfferent free resources, Codecademy, HTMLAcademy, Hexlet etc.</li>
+											</ul>
+										</div>
+									</li>
+								</ul>
+							</section>
+						</div>
+					</div>
+				</div>
+			</div>
+		</article>
+	</main>
 </body>
 </html>
